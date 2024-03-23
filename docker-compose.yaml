@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: frontend-test-app-container
+    ports:
+      - '4201:4200'

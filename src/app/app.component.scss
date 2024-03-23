@@ -1,0 +1,43 @@
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      section {
+        margin-bottom: 2em;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+
+      th {
+        background-color: #4CAF50;
+        color: white;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      label, input {
+        margin-bottom: 0.5em;
+      }
+
+      input[type="submit"] {
+        cursor: pointer;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
